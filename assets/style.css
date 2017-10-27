@@ -1,0 +1,11 @@
+body{
+    cursor: url(http://cultofthepartyparrot.com/parrots/hd/parrot.gif), auto; 
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#reset {
+    cursor: not-allowed;
+}

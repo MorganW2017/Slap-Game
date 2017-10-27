@@ -1,12 +1,40 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<title>Slap Object Game</title>
-	<link rel="stylesheet" href="">
-	<link rel="stylesheet" href="">
-	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Slap Game</title>
+	<link rel="stylesheet" href="assets/style.css">
 </head>
+
 <body>
-	
-	<script src=""></script>
+	<style type="text/css">
+		body {
+			cursor: url(http://www.rw-designer.com/cursor-extern.php?id=103256);
+		}
+	</style>
+	<span>Health:
+		<span id="health">--</span>
+	</span>
+	<div class="buttons">
+		<button class="" onclick="slap()">
+			Slap
+		</button>
+		<button class="" onclick="punch()">
+			Punch
+		</button>
+		<button class="" onclick="kick()">
+			Kick
+		</button>
+		<button id="reset" onclick="resetHealth()" disabled="true">
+			Reset
+		</button>
+	</div>
+	<div class="footer">
+	</div>
+	<script src="app/game.js"></script>
 </body>
+
 </html>
