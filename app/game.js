@@ -9,12 +9,12 @@ function updateHealth() {
 	document.getElementById("health").innerText = health;
 }
 /*
-*/
 function shield(){
 	if (health >= 3){
 		shield + 30%
 	}
 }
+*/
 function resetHealth() {
 	health = 100;
 	updateHealth();
