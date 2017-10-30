@@ -11,7 +11,7 @@ function update() {
 
 function resetGame() {
 	health = 100;
-	document.getElementById('smoke').src = '../assets/smoke_mirror.gif'
+	document.getElementById('smoke').src = 'assets/smoke_mirror.gif'
 	update();
 	reset.disabled = true;
 }
