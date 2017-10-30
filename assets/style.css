@@ -21,10 +21,16 @@ body {
     color: white;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 1px;
 }
 .players {
     display: flex;
     justify-content: space-between;
-    padding: 199px 225px 5px 225px;
+    padding: 180px 360px 5px 360px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    color: darkred;
 }
