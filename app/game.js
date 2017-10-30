@@ -8,13 +8,7 @@ function updateHealth() {
 	}
 	document.getElementById("health").innerText = health;
 }
-/*
-function shield(){
-	if (health >= 3){
-		shield + 30%
-	}
-}
-*/
+
 function resetHealth() {
 	health = 100;
 	updateHealth();
@@ -33,61 +27,3 @@ function kick() {
 	updateHealth();
 }
 updateHealth()
-
-
-
-var Obj = function (shield, option2, option3) {
-	this.shield = shield;
-	this.option2 = option2;
-	this.option3 = option3;
-}
-
-
-/*
-}
-
-var ken = {
-	health: 120,
-	attacks: {
-		kick: 20,
-		punch: 15,
-		uppercut: 30,
-		hadouken: 40
-	},
-	mobility: 35
-}
-
-var ryu = {
-	health: 100,
-	attacks: {
-		kick: 15,
-		punch: 10,
-		uppercut: 25,
-		hadouken: 60
-	}
-}
-function GameService() {
-
-	var dataStore = this
-	var target = new Target("Scarecrow", 100, 1, 5, 10);
-
-	function Target(name, health, slap, punch, kick) {
-		this.name = name;
-		this.health = health;
-		this.attacks = {
-			"slap": slap,
-			"punch": punch,
-			"kick": kick
-		};
-		this.items = []
-		this.hits = 0
-	};
-
-	function Item(name, modifier, description) {
-		this.name = name;
-		this.modifier = modifier;
-		this.description = description;
-	}
-};
-
-*/
