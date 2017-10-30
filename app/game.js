@@ -3,7 +3,7 @@ var reset = document.getElementById('reset')
 function update() {
 	if (health <= 0) {
 		health = 0;
-		document.getElementById('smoke').src = '../assets/smoke-falling.gif'
+		document.getElementById('smoke').src = 'assets/smoke-falling.gif'
 		reset.disabled = false
 	}
 	document.getElementById("health").innerText = health;
