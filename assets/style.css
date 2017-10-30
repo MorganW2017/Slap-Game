@@ -25,6 +25,6 @@ body {
 }
 .players {
     display: flex;
-    justify-content: center;
-    padding: 200px 135px 5px 140px;
+    justify-content: space-between;
+    padding: 199px 225px 5px 225px;
 }
