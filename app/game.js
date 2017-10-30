@@ -8,7 +8,6 @@ function update() {
 	}
 	document.getElementById("health").innerText = health;
 }
-
 function resetGame() {
 	health = 100;
 	document.getElementById('smoke').src = 'assets/smoke_mirror.gif'
